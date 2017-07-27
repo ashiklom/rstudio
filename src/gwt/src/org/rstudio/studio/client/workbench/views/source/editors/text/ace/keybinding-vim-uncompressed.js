@@ -834,6 +834,7 @@ dom.importCssString(".normal-mode .ace_cursor{\
     { keys: '<C-c>', type: 'keyToKey', toKeys: '<Esc>' },
     { keys: '<C-[>', type: 'keyToKey', toKeys: '<Esc>', context: 'insert' },
     { keys: '<C-c>', type: 'keyToKey', toKeys: '<Esc>', context: 'insert' },
+    { keys: 'jk', type: 'keyToKey', toKeys: '<Esc>', context: 'insert' },
     { keys: 's', type: 'keyToKey', toKeys: 'cl', context: 'normal' },
     { keys: 's', type: 'keyToKey', toKeys: 'c', context: 'visual'},
     { keys: 'S', type: 'keyToKey', toKeys: 'cc', context: 'normal' },
